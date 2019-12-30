@@ -70,7 +70,7 @@ Primary use:  Vcard / Personal / CV / Resume / Portfolio
 body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
-  background: url('../img/bg1.jpg') no-repeat center center fixed;
+  background: url('../img/bg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -401,7 +401,7 @@ iframe {
   width: 99%;
   margin: 0 auto;
   overflow-y: scroll;
-  background: url('../img/bg-card2.png') repeat-x right top #f4f4f4;
+  background: url('../img/card.png') repeat-x right top #f4f4f4;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
@@ -656,7 +656,7 @@ iframe {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   padding: 10px;
-  background: url('../img/bg-btn.png') no-repeat center center #08aeac;
+  background: url('../img/btn.png') no-repeat center center #08aeac;
 }
 .vcard-profile-description-ft-item p {
   margin-bottom: 0;
