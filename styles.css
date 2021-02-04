@@ -1,0 +1,128 @@
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 800;
+  line-height: 1;
+  position: relative;
+  margin-top: 0;
+}
+
+h1:after {
+  position: absolute;
+  content: "";
+  width: 5rem;
+  height: 6px;
+  background: #ffe600;
+  bottom: -3rem;
+  left: 0;
+}
+
+h2 {
+  margin-top: 7rem;
+}
+
+p {
+  line-height: 1.75;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  cursor: pointer;
+  background: rgb(22, 0, 63);
+  color: #ffe600;
+  transition: 100ms all linear;
+}
+
+a:focus {
+  outline: none;
+}
+
+.btn {
+  background: #ffe600;
+  padding: 0.75em 1.5em;
+  font-size: 0.85rem;
+  border: none;
+  font-weight: 600;
+  border-radius: 3px;
+  transition: 100ms all linear;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.content {
+  flex: 2;
+}
+
+.graphic {
+  flex: 3;
+  text-align: right;
+}
+
+.download-link {
+  margin-top: 2.5em;
+}
+
+.celebration-gif {
+  width: 100%;
+  max-width: 480px;
+}
+
+@media (max-width: 920px) {
+  .container {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    flex-direction: column;
+  }
+
+  .graphic {
+    margin-top: 3em;
+  }
+
+  .svg-blob {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+}
