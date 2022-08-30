@@ -45,14 +45,15 @@ p {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline #ffe600 5px;
   color: black;
 }
 
 a:hover {
+  text-decoration: underline #ffe600 5px;
   cursor: pointer;
-  background: rgb(22, 0, 63);
-  color: #ffe600;
+  background: #ffe600;
+  color: rgb(22, 0, 63);
   transition: 100ms all linear;
 }
 
